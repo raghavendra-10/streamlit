@@ -14,7 +14,7 @@ if st.button("Submit"):
         st.error("Please provide a valid prompt!")
     else:
         # API endpoint
-        url = "https://dr9gvhct3f.execute-api.us-west-2.amazonaws.com/dev/chat"
+        url = "https://em8fhimio3.execute-api.us-west-2.amazonaws.com/dev"
 
         # Payload
         payload = {"prompt": prompt}
